@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.min-h-scren{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: rgba(43, 151, 210, 0.273);
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.iteam-center{
+    align-items: center;
+
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content:center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.f-bold{
+    font-weight: bolder;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display:flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.left-part{
+    width: 100%;
+}
+.rigth-part{
+    width: 30%;
+    
+}
+.section1{
+    max-height: 100vh;
+}
+.section1 h1{
+    font-size: 2.5rem;
+    color: #6d0003;
+}
+.section1 p{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.logo{
+    font-size: 1.3rem;
+}
+
+.margin-1{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.margin-2{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.padding-1{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.text-color-blue{
+    color: rgb(130, 31, 31);
+}
+.join-now{
+    cursor: pointer;
+    padding: 7px 12px;
+    border: 2px solid rgb(130, 31, 31);
+    border-radius: 7px;
+    color: rgb(130, 31, 31);
+   
+}
+.join-now:hover {
+    background-color: rgb(130, 31, 31);
+    color: rgb(49, 3, 3);
+  }
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.dumbbell{
+    width: 230px;
+}
+.rigth-part .image-gym{
+    width: 666px;
+}
+
+.section2{
+    padding: 73px;
+}
+.section2 h1{
+    font-size: 2.6rem;
+}
+.section2 p{
+    padding: 0 8vh;
+    text-align: center;
+    font-size: 20px;
+}
+.box{
+    text-align: center;
+    margin: 12px 22px;
+    min-width: 20vw;
+    padding: 8px 0;
+    border: 2px solid rgb(130, 31, 31);
+    border-radius: 8px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px;
+}
+.highlight{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.plan-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    padding: 73px;
+}
+.section3 h1{
+    font-size: 2.6rem;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px ;
+    border-collapse: collapse;
+}
+.section3 table th{
+    padding: 15px 0;
+    width: 23vw;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+}
+
